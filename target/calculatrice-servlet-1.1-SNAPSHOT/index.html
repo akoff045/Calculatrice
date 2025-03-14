@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculatrice Servlet</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculatrice</h2>
+        <form action="CalculatriceServlet" method="post">
+            <label for="num1">Nombre 1:</label>
+            <input type="text" name="num1" required><br>
+            
+            <label for="num2">Nombre 2:</label>
+            <input type="text" name="num2" required><br>
+            
+            <label for="operation">Opération:</label>
+            <select name="operation">
+                <option value="addition">Addition</option>
+                <option value="soustraction">Soustraction</option>
+                <option value="multiplication">Multiplication</option>
+                <option value="division">Division</option>
+            </select><br>
+            
+            <input type="submit" value="Calculer" class="btn">
+        </form>
+    </div>
+</body>
+</html>

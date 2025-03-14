@@ -62,12 +62,11 @@ mvn clean install
    ```
 2. Deploy the application:
    ```sh
-   mvn package
-   cp target/calculatrice-servlet.war glassfish5/glassfish/domains/domain1/autodeploy/
+   glassfish5/bin/asadmin deploy "here goes your war file name"
    ```
 3. Access the application in a browser:
    ```
-   http://localhost:8080/calculatrice-servlet/index.html
+   http://localhost:8080
    ```
 
 ### **4️⃣ Stop GlassFish**

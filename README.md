@@ -80,9 +80,9 @@ glassfish5/bin/asadmin stop-domain
 - Ensure **Servlet API dependency** is added in `pom.xml`:
 ```xml
 <dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>javax.servlet-api</artifactId>
-    <version>4.0.1</version>
+    <groupId>jakarta.servlet</groupId>
+    <artifactId>jakarta.servlet-api</artifactId>
+    <version>6.0.0</version>
     <scope>provided</scope>
 </dependency>
 ```

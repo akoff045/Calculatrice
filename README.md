@@ -12,7 +12,7 @@ This is a simple web-based calculator application built using **Java Servlets**,
 
 - **Java Development Kit (JDK):** 11
 - **Apache Maven:** 3.9.9
-- **GlassFish 7 Application Server:** 
+- **GlassFish 7 Application Server:** 7.0.22
 - **Servlet API:** 6.0
 - **HTML, CSS:** For front-end styling
 
@@ -38,7 +38,7 @@ Before running the project, ensure you have the following installed:
    - Download: [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
    - Add Maven to PATH and set `MAVEN_HOME`
 
-3. **GlassFish 7:**
+3. **GlassFish 7.0.22:**
    - Download: [https://glassfish.org/download](https://glassfish.org/download)
    - Install and add `GLASSFISH_HOME` to your system path
 

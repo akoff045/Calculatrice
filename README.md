@@ -1,9 +1,9 @@
-# Calculatrice Web avec Servlets
+# Web Calculator with Servlets  
 
-## Description
-Cette application permet d'effectuer des opérations mathématiques basiques (addition, soustraction, multiplication, division) à l'aide de servlets en Java.
+## Description  
+This application allows users to perform basic mathematical operations (addition, subtraction, multiplication, division) using Java Servlets.  
 
-## Fonctionnalités
-- Formulaire HTML pour entrer les nombres et sélectionner une opération.
-- Servlet Java pour effectuer les calculs et gérer les sessions.
-- Stockage de la date du dernier accès via HttpSession.
+## Features  
+- HTML form to input numbers and select an operation.  
+- Java Servlet to perform calculations and manage sessions.  
+- Storage of the last access date using HttpSession.

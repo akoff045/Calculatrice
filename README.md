@@ -33,12 +33,12 @@ Before running the project, ensure you have the following installed:
    - Check if installed: `java -version`
    - Download: [https://www.oracle.com/java/technologies/javase-jdk11-downloads.html](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 
-2. **Maven 3.x:**
+2. **Maven 3.9.9:**
    - Check if installed: `mvn -v`
    - Download: [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
    - Add Maven to PATH and set `MAVEN_HOME`
 
-3. **GlassFish 5.x:**
+3. **GlassFish 7:**
    - Download: [https://glassfish.org/download](https://glassfish.org/download)
    - Install and add `GLASSFISH_HOME` to your system path
 
